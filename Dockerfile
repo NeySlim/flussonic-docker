@@ -1,5 +1,5 @@
 # DOCKER_IMAGE_VERSION 21.11-30-gdb0cfec
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 
 ARG BRANCH=master
 RUN echo "deb http://apt.flussonic.com/repo/ ${BRANCH}/" > /etc/apt/sources.list.d/flussonic.list
